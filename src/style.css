@@ -1,5 +1,15 @@
-img.computer {
+body {
+  background: black;
+}
+h2 {
+  color: white;
+  text-decoration: underline;
+}
+h6 {
+  color: white;
+}
+img {
   max-width: 100%;
   height: auto;
-  size: 200px;
+  display: block;
 }

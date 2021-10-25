@@ -13,3 +13,12 @@ img {
   height: auto;
   display: block;
 }
+.primary-link {
+  border: 1px solid white;
+  border-radius: 2px;
+  background: white;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  margin: 10px 10px;
+}

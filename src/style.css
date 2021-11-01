@@ -1,4 +1,14 @@
-.nav-item {
+h1 {
+  text-align: center;
+  font-size: 65px;
+}
+img {
   display: block;
   margin: 0 auto;
+  max-width: 400px;
+}
+img.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 75px;
 }

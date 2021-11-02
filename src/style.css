@@ -1,5 +1,9 @@
 h1 {
   text-align: center;
+  font-size: 60px;
+}
+h2 {
+  text-align: center;
   font-size: 35px;
 }
 
@@ -23,6 +27,7 @@ img.logo {
 }
 p {
   line-height: 1.5;
+  padding: 10px;
 }
 .gallery {
   background-color: black;

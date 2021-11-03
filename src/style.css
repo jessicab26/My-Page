@@ -91,3 +91,11 @@ div.about-page {
 .link:hover {
   color: rgb(252, 14, 133);
 }
+.icon {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 300px;
+}
+.links {
+  text-align: center;
+}

@@ -1,22 +1,22 @@
 @media (max-width: 800px) {
   h4 {
-    text-align: end;
+    text-align: left;
+  }
+  .paragraph {
+    text-align: center;
   }
   .me {
     display: none;
   }
-  .travel {
-    display: none;
-  }
 }
-
 h1 {
   text-align: center;
   font-size: 60px;
 }
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 45px;
+  font-size: 50px;
+  text-decoration: underline;
 }
 h4 {
   font-size: 50px;
@@ -24,16 +24,12 @@ h4 {
 }
 
 img.me {
-  margin-top: 100px;
-  margin-left: 50px;
   max-width: 400px;
+  margin-left: 300px;
+  margin-top: 95px;
+  margin-bottom: 100px;
 }
-img.travel {
-  margin-top: 475px;
-  margin-bottom: 75px;
-  margin-right: 50px;
-  max-width: 350px;
-}
+
 img.logo {
   display: block;
   margin: 0 auto;
@@ -47,16 +43,16 @@ img.me-two {
   margin-right: 75px;
   max-width: 450px;
 }
-p {
-  line-height: 1.5;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
+
 div.about-page {
   padding: 10px 10px;
   line-height: 2;
   margin-top: 40px;
+}
+p.home-excerpt {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .gallery {
   background-color: black;
@@ -72,9 +68,9 @@ div.about-page {
   background-color: white;
 }
 .paragraph {
-  margin-top: 250px;
-  padding: 15px 15px;
-  margin-left: 120px;
+  margin-top: 100px;
+  margin-left: 150px;
+  max-width: 300px;
 }
 .welcome {
   display: flex;

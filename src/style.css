@@ -3,11 +3,11 @@ h1 {
   font-size: 60px;
 }
 h2 {
-  text-align: center;
-  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
 }
 h4 {
-  font-size: 45px;
+  font-size: 50px;
   font-family: "Dancing Script", cursive;
 }
 
@@ -18,8 +18,7 @@ img.me {
 }
 img.travel {
   margin-top: 475px;
-  margin-left: 10px;
-  margin-bottom: 45px;
+  margin-bottom: 75px;
   max-width: 350px;
 }
 img.logo {
@@ -37,11 +36,13 @@ img.me-two {
 }
 p {
   line-height: 1.5;
-  padding: 15px 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 div.about-page {
   padding: 10px 10px;
-  line-height: 1.5;
+  line-height: 2;
   margin-top: 40px;
 }
 .gallery {
@@ -51,14 +52,14 @@ div.about-page {
   border-radius: 4px;
   padding: 5px 5px;
   text-decoration: none;
-  margin: 5px 12px;
+  margin-top: 15px;
 }
 .gallery:hover {
   color: black;
   background-color: white;
 }
 .paragraph {
-  max-width: 400px;
+  max-width: 550px;
   margin-top: 250px;
 }
 .welcome {
@@ -98,4 +99,14 @@ div.about-page {
 }
 .links {
   text-align: center;
+}
+.one {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 350px;
+}
+.two {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 250px;
 }

@@ -2,10 +2,7 @@
   h4 {
     text-align: left;
   }
-  .paragraph {
-    text-align: center;
-  }
-  .me {
+  img.me {
     display: none;
   }
 }
@@ -25,9 +22,15 @@ h4 {
 
 img.me {
   max-width: 400px;
-  margin-left: 300px;
-  margin-top: 95px;
+  margin-left: 350px;
+  margin-top: 100px;
   margin-bottom: 100px;
+}
+img.travel {
+  max-width: 250px;
+}
+img.print {
+  max-width: 250px;
 }
 
 img.logo {
@@ -54,6 +57,17 @@ p.home-excerpt {
   margin-bottom: 40px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+p.quote {
+  text-align: center;
+  font-size: 50px;
+  padding: 25px 10px;
+  font-family: "Tangerine", cursive;
+}
+div.section {
+  background-color: paleturquoise;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
 .gallery {
   background-color: black;
   color: white;
@@ -61,16 +75,22 @@ p.home-excerpt {
   border-radius: 4px;
   padding: 5px 5px;
   text-decoration: none;
-  margin-top: 15px;
+}
+.gallery-two {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px 5px;
+  text-decoration: none;
 }
 .gallery:hover {
   color: black;
   background-color: white;
 }
-.paragraph {
+.homepage {
   margin-top: 100px;
-  margin-left: 150px;
-  max-width: 300px;
+  max-width: 375px;
 }
 .welcome {
   display: flex;

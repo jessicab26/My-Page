@@ -24,7 +24,7 @@ h5 {
 }
 
 img.me {
-  max-width: 400px;
+  max-width: 450px;
   margin-left: 350px;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -53,10 +53,6 @@ div.about-page {
   line-height: 2;
   margin-top: 40px;
 }
-div.blogs {
-  display: flex;
-  justify-content: space-evenly;
-}
 p.home-excerpt {
   margin-top: 10px;
   margin-bottom: 40px;
@@ -65,14 +61,13 @@ p.home-excerpt {
 p.quote {
   text-align: center;
   font-size: 55px;
-  padding: 25px 10px;
+  margin-bottom: 100px;
   font-family: "Tangerine", cursive;
 }
-div.section {
-  background-color: paleturquoise;
-  margin-top: 150px;
-  margin-bottom: 100px;
-  padding: 20px 65px;
+
+div.buttons {
+  margin-left: 88px;
+  margin-bottom: 350px;
 }
 
 .gallery {

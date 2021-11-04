@@ -6,18 +6,21 @@
     display: none;
   }
 }
-h1 {
-  text-align: center;
-  font-size: 60px;
-}
-h2 {
+
+h1.header {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 50px;
+  font-size: 55px;
   text-decoration: underline;
 }
+
 h4 {
   font-size: 50px;
   font-family: "Dancing Script", cursive;
+}
+h5 {
+  font-family: "Zen Old Mincho", serif;
+  font-size: 35px;
+  margin-top: 30px;
 }
 
 img.me {
@@ -26,9 +29,7 @@ img.me {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-img.travel {
-  max-width: 250px;
-}
+
 img.print {
   max-width: 250px;
 }
@@ -52,14 +53,18 @@ div.about-page {
   line-height: 2;
   margin-top: 40px;
 }
+div.blogs {
+  display: flex;
+  justify-content: space-evenly;
+}
 p.home-excerpt {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 40px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 p.quote {
   text-align: center;
-  font-size: 50px;
+  font-size: 55px;
   padding: 25px 10px;
   font-family: "Tangerine", cursive;
 }
@@ -67,30 +72,25 @@ div.section {
   background-color: paleturquoise;
   margin-top: 150px;
   margin-bottom: 100px;
+  padding: 20px 65px;
 }
+
 .gallery {
   background-color: black;
   color: white;
   border: 1px solid black;
   border-radius: 4px;
-  padding: 5px 5px;
+  padding: 10px 10px;
   text-decoration: none;
 }
-.gallery-two {
-  background-color: black;
-  color: white;
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 5px 5px;
-  text-decoration: none;
-}
+
 .gallery:hover {
   color: black;
   background-color: white;
 }
 .homepage {
   margin-top: 100px;
-  max-width: 375px;
+  max-width: 300px;
 }
 .welcome {
   display: flex;

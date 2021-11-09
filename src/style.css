@@ -8,6 +8,19 @@ h1.header {
   img.me {
     display: none;
   }
+  img.me-two {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+  }
+  span.hello {
+    font-size: 45px;
+  }
+  p.about-page {
+    text-align: left;
+    font-size: 20px;
+  }
+
   h1.header {
     font-size: 45px;
   }
@@ -42,12 +55,14 @@ h6 {
 }
 
 img.me {
-  max-width: 450px;
+  max-width: 500px;
   margin-left: 350px;
   margin-top: 100px;
   margin-bottom: 100px;
 }
-
+img.me-two {
+  margin-bottom: 200px;
+}
 img.print {
   max-width: 250px;
 }
@@ -57,19 +72,11 @@ img.logo {
   margin: 0 auto;
   max-width: 80px;
 }
-img.me-two {
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin-top: 150px;
-  margin-right: 75px;
-  max-width: 450px;
-}
 
-div.about-page {
+p.about-page {
   padding: 10px 10px;
+  margin-top: 20px;
   line-height: 2;
-  margin-top: 40px;
 }
 p.home-excerpt {
   margin-top: 10px;
@@ -103,7 +110,7 @@ div.buttons {
   flex-direction: column;
 }
 .hello {
-  font-size: 40px;
+  font-size: 55px;
   margin-top: 100px;
   font-family: "Merienda", cursive;
   margin-left: 50px;
@@ -128,12 +135,16 @@ div.buttons {
 .link:hover {
   color: rgb(252, 14, 133);
 }
-.icon {
-  text-align: center;
-  font-size: 25px;
-  margin-top: 300px;
-}
 .links {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
 }
 .one {

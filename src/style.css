@@ -61,7 +61,7 @@ img.me {
   margin-bottom: 100px;
 }
 img.me-two {
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 img.print {
   max-width: 250px;
@@ -142,7 +142,7 @@ div.buttons {
 }
 
 .icon {
-  font-size: 25px;
+  font-size: 30px;
   display: flex;
   justify-content: space-evenly;
   text-align: center;

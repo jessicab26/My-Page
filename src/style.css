@@ -47,6 +47,7 @@ h2.work {
 h3 {
   font-family: "Permanent Marker", cursive;
   color: black;
+  font-size: 35px;
 }
 h4 {
   font-size: 55px;
@@ -99,7 +100,7 @@ img.me {
   margin-bottom: 100px;
 }
 img.me-two {
-  margin-bottom: 250px;
+  margin-bottom: 300px;
 }
 img.print {
   max-width: 250px;
@@ -125,6 +126,16 @@ p.home-excerpt {
 div.buttons {
   margin-bottom: 350px;
 }
+.about-amelia {
+  display: flex;
+  justify-content: space-evenly;
+}
+.amelia-quote {
+  font-size: 25px;
+  font-family: "Handlee", cursive;
+  color: black;
+  margin-top: 65px;
+}
 .content-container {
   text-align: center;
 }
@@ -135,6 +146,7 @@ div.buttons {
 .travel-inspiration {
   text-decoration: none;
   color: black;
+  font-family: "Newsreader", serif;
 }
 .travel-inspiration:hover {
   color: rgb(252, 14, 133);
@@ -220,4 +232,7 @@ div.buttons {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
+}
+#blogs {
+  margin-top: 200px;
 }

@@ -76,14 +76,12 @@ h1.work-page {
   color: black;
 }
 h1.contact-header {
-  text-align: center;
   font-size: 65px;
   font-family: "Shadows Into Light Two", cursive;
   margin-bottom: 100px;
 }
 h3.contact-me {
   font-family: "Mochiy Pop P One", sans-serif;
-  text-align: center;
 }
 p.work-paragraph {
   color: white;
@@ -125,15 +123,15 @@ p.home-excerpt {
 div.buttons {
   margin-bottom: 350px;
 }
+.content-container {
+  text-align: center;
+}
 .travel-blogs {
   display: flex;
   justify-content: space-evenly;
 }
 .contact-links {
   margin-top: 200px;
-}
-.content-container {
-  text-align: center;
 }
 
 .homework {

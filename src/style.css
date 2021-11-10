@@ -61,12 +61,13 @@ h5 {
   margin-top: 30px;
   color: black;
 }
-h6 {
+h6.quote {
   text-align: center;
   font-size: 55px;
   margin-bottom: 100px;
   font-family: "Tangerine", cursive;
   color: black;
+  margin-bottom: 350px;
 }
 h6.cities {
   font-size: 20px;
@@ -134,6 +135,11 @@ p.home-excerpt {
 
 div.buttons {
   margin-bottom: 350px;
+}
+span.name {
+  font-family: "Yellowtail", cursive;
+  font-size: 20px;
+  color: black;
 }
 .about-amelia {
   display: flex;
